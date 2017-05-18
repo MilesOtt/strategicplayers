@@ -1,0 +1,2 @@
+# strategicplayers
+strategicplayers R Package
