@@ -1,13 +1,12 @@
 Package: strategicplayers
 Type: Package
 Title: Strategic Players
-Version: 1.0
-Date: 2016-09-05
+Version: 1.1
+Date: 2024-02-10
 Author: Miles Ott
 Maintainer: Miles Ott <miles_ott@alumni.brown.edu>
 Description: Identifies individuals in a social network who should be the intervention
     subjects for a network intervention in which you have a group of targets, a
     group of avoiders, and a group that is neither.
 License: GPL-3
-Imports: sna
 RoxygenNote: 5.0.1
