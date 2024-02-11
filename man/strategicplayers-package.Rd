@@ -13,7 +13,9 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{strategicplayers}
 \packageIndices{strategicplayers}
-~~ An overview of how to use the package, including the most important functions ~~
+use the sp function to get a list of strategic players indicies
+
+
 }
 \author{
 \packageAuthor{strategicplayers}
@@ -21,7 +23,7 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{strategicplayers}
 }
 \references{
-~~ Literature or other references for background information ~~
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6959850/
 }
 
 \keyword{ package }
@@ -62,7 +64,9 @@ Maintainer: \packageMaintainer{strategicplayers}
 #colors[avoids]<-"red"
 #colors[spset]<-"yellow"
 #par(mar=c(1,1,1,1))
-#gplot(network, vertex.col=colors, usearrows=FALSE, edge.col="grey", vertex.border="grey", vertex.cex=1.7, pad=0, label=1:dim(network)[1])
+#gplot(network, vertex.col=colors, 
+#usearrows=FALSE, edge.col="grey",
+#vertex.border="grey", vertex.cex=1.7, pad=0, label=1:dim(network)[1])
 
 
 }
